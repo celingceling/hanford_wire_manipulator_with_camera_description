@@ -11,3 +11,6 @@ __pycache__/
 # Windows NTFS alternate data streams
 *:Zone.Identifier
 *:Zone.Identifier:*
+
+*:Avecto.Zone.Identifier
+*:Avecto.Zone.Identifier:*
