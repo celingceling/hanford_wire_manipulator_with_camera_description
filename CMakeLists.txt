@@ -3,12 +3,15 @@ cmake_minimum_required(VERSION 3.8)
 # ROS 2 uses ament instead of catkin
 find_package(ament_cmake REQUIRED)
 
+project(hanford_wire_manipulator_with_camera_description)
+
 # Install your resource folders into the package share
 install(
   DIRECTORY
     launch
     meshes
     urdf
+    usd
   DESTINATION share/${PROJECT_NAME}
 )
 
