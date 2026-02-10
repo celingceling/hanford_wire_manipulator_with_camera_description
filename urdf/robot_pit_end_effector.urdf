@@ -36,7 +36,7 @@
         rpy="3.14 0 0" />
       <geometry>
         <mesh
-          filename="package://new_link_arm_full/meshes/tank_base_link.STL" />
+          filename="package://hanford_wire_manipulator_with_camera_description/meshes/tank_base_link.STL" />
       </geometry>
       <material name="pit_transparent"/>
     </visual>
@@ -46,7 +46,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://new_link_arm_full/meshes/tank_base_link.STL" />
+          filename="package://hanford_wire_manipulator_with_camera_description/meshes/tank_base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -84,14 +84,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/base_link.STL"/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/base_link.STL"/>
       </geometry>
       <material name="yellowish"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/base_link.STL"/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/base_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -125,14 +125,14 @@
     <visual>
       <origin xyz="0 0 0.07" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/link_1.STL"/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/link_1.STL"/>
       </geometry>
       <material name="ur5_blue"/>
     </visual>
     <collision>
       <origin xyz="0 0 0.07" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/link_1.STL"/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/link_1.STL"/>
       </geometry>
     </collision>
   </link>
@@ -154,14 +154,14 @@
     <visual>
       <origin xyz="0 0 0.07" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/link_2.STL"/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/link_2.STL"/>
       </geometry>
       <material name="yellowish"/>
     </visual>
     <collision>
       <origin xyz="0 0 0.07" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/link_2.STL"/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/link_2.STL"/>
       </geometry>
     </collision>
   </link>
@@ -183,14 +183,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>   
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/end_effector.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/end_effector.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="yellowish"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/end_effector.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/end_effector.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -214,14 +214,14 @@
       <!-- Place the pulley at the wrist face of link_2 -->
       <origin xyz="0 0 0" rpy="0 0 0"/> <!-- <<< TUNE offset -->
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/pulley.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/pulley.STL" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="ur5_blue"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/> <!-- same as visual -->
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/pulley.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/pulley.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -247,85 +247,85 @@
     <visual>
       <origin xyz="0.0125841 0.0156099 0.00667 " rpy="1.5707963 0.0000001 3.1415925"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_056.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_056.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
     <visual>
       <origin xyz="0.0125679 0.0156099 0.00667 " rpy="1.5707963 0.0000001 3.1415925"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_057.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_057.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
     <visual>
       <origin xyz="-0.0000162 0.0205866 0.01178 " rpy="0. -1.5707961 -1.5707964"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_058.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_058.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
     <visual>
       <origin xyz="0.0067838 0.0228566 0.01178 " rpy="-1.570797 0.0000002 3.1415925"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_063.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_063.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
     <visual>
       <origin xyz="-0.0068162 0.0228566 0.01178 " rpy="-1.570797 0.0000002 3.1415925"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_064.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_064.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
     <visual>
       <origin xyz="0.0125727 0.0156099 0.00667 " rpy="1.5707963 0.0000001 3.1415925"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_065.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_065.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
     <visual>
       <origin xyz="0.0302985 0.0108403 0.0035155" rpy="1.5707966 0. 0. "/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_075.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_075.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
     <visual>
       <origin xyz="0.0802065 0.0108403 0.0035155" rpy="1.5707966 0. 0. "/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_077.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_077.obj" scale="1. 1. 1."/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0.0125841 0.0156099 0.00667 " rpy="1.5707963 0.0000001 3.1415925"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_056.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_056.obj" scale="1. 1. 1."/>
       </geometry>
     </collision>
     <collision>
       <origin xyz="0.0125679 0.0156099 0.00667 " rpy="1.5707963 0.0000001 3.1415925"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_057.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_057.obj" scale="1. 1. 1."/>
       </geometry>
     </collision>
     <collision>
       <origin xyz="-0.0000162 0.0205866 0.01178 " rpy="0. -1.5707961 -1.5707964"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_058.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_058.obj" scale="1. 1. 1."/>
       </geometry>
     </collision>
     <collision>
       <origin xyz="0.0067838 0.0228566 0.01178 " rpy="-1.570797 0.0000002 3.1415925"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_063.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_063.obj" scale="1. 1. 1."/>
       </geometry>
     </collision>
     <collision>
       <origin xyz="-0.0068162 0.0228566 0.01178 " rpy="-1.570797 0.0000002 3.1415925"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_064.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_064.obj" scale="1. 1. 1."/>
       </geometry>
     </collision>
     <collision>
       <origin xyz="0.0125727 0.0156099 0.00667 " rpy="1.5707963 0.0000001 3.1415925"/>
       <geometry>
-        <mesh filename="package://new_link_arm_full/meshes/zed_x_mini/Mesh_065.obj" scale="1. 1. 1."/>
+        <mesh filename="package://hanford_wire_manipulator_with_camera_description/meshes/zed_x_mini/Mesh_065.obj" scale="1. 1. 1."/>
       </geometry>
     </collision>
   </link>

@@ -53,7 +53,10 @@ def launch_setup(context, *args, **kwargs):
     return nodes
 
 def generate_launch_description():
-    pkg_share = get_package_share_directory("new_link_arm_full")
+    pkg_share = get_package_share_directory(
+        # "new_link_arm_full"
+        "hanford_wire_manipulator_with_camera_description"
+        )
     default_model = os.path.join(pkg_share, "urdf", "robot_pit_end_effector.urdf")
 
     return LaunchDescription([
