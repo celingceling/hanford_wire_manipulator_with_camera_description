@@ -14,7 +14,7 @@
   </material>
 
   <!-- ========= Environment: PIT (kept static) ========= -->
-  <link
+  <!-- <link
     name="pit_base_link">
     <inertial>
       <origin
@@ -49,16 +49,35 @@
           filename="package://hanford_wire_manipulator_with_camera_description/meshes/robot/tank_base_link.STL" />
       </geometry>
     </collision>
-  </link>
+  </link> -->
+
+  <!-- <link
+    name="pit_base_link">
+    <inertial>
+      <origin
+        xyz="0.91548 0.18867 0.75538"
+        rpy="0 0 0" />
+      <mass
+        value="10549" />
+      <inertia
+        ixx="10402"
+        ixy="17.679"
+        ixz="-164.62"
+        iyy="22590"
+        iyz="10.455"
+        izz="28428" />
+    </inertial>
+  </link> -->
 
   <!-- ========= Helper frame at pipe entrance ========= -->
+
   <link name="pipe_entry"/>
-  <joint name="pit_to_entry" type="fixed">
+  <!-- <joint name="pit_to_entry" type="fixed">
     <parent link="pit_base_link"/>
-    <child  link="pipe_entry"/>
+    <child  link="pipe_entry"/> -->
     <!-- Tune this to put pipe_entry exactly at the pipe mouth -->
-    <origin xyz="0 0 0" rpy="0 0 0"/>
-  </joint>
+    <!-- <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint> -->
 
   <!-- ========= Robot carriage: slides DOWN the pipe ========= -->
   <link name="ceiling_mount"/>
