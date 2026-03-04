@@ -253,10 +253,10 @@
     <dynamics damping="0.02" friction="0.0"/>
   </joint>
 
-  <!-- <link name="camera_link"/> -->
+  <link name="camera_link"/>
 
   <joint name="camera_link_to_pulley" type="fixed">
-    <parent link="pulley_drive"/> <child link="zed_x_mini_base"/>
+    <parent link="pulley_drive"/> <child link="camera_link"/>
     <!-- rotate from x-forward,z-up to z-forward,x-right,y-down -->
     <origin xyz="0 0 -0.04" rpy="0 0 0"/>
   </joint>

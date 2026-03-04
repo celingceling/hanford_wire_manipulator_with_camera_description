@@ -253,7 +253,7 @@ def main():
     """Main function to run the visualization"""
     
     # Path to your robot USD file
-    USD_PATH = r"C:\Users\LICF\hanford_wire_manipulator_with_camera_description\usd\hanford_arm.usd"
+    USD_PATH = r"C:\Users\LICF\projects\hanford_wire_manipulator_with_camera_description\usd\hanford_arm.usd"
     ROBOT_PATH = "/World/hanford_arm"  # Prim path where robot will be loaded
     
     visualizer = RobotArmVisualizer(robot_prim_path=ROBOT_PATH)
